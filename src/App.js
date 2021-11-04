@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/food-shop'>
         <Header />
         <Switch>
           <Route exact path='/'>
