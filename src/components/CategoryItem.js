@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Card, Button } from 'react-bootstrap';
 
 function CategoryItem({
-  idCategory,
+  // idCategory,
   strCategory,
   strCategoryThumb,
   strCategoryDescription,
