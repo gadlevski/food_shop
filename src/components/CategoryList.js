@@ -7,8 +7,8 @@ function CategoryList({ catalog }) {
     <>
       <Row>
         {catalog.map((item) => (
-          <Col sm={12} md={3}>
-            <CategoryItem key={item.idCategory} {...item} />
+          <Col key={item.idCategory} sm={12} md={3}>
+            <CategoryItem {...item} />
           </Col>
         ))}
       </Row>
